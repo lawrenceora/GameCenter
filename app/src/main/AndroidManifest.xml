@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fall2018.csc207project.slidingtilegame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="fall2018.csc207project.UI.Global">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameActivity" />
+        <activity android:name="fall2018.csc207project.UI.StartingActivity" />
+        <activity android:name="fall2018.csc207project.UI.SignIn" />
+        <activity android:name="fall2018.csc207project.UI.SignUp" />
+        <activity android:name="fall2018.csc207project.UI.LocalGameCenterActivity" />
+        <activity android:name="fall2018.csc207project.UI.GameListActivity" />
+        <activity android:name=".ComplexityActivity" />
+        <activity android:name="fall2018.csc207project.UI.GlobalScoreBoardActivity" />
+        <activity android:name="fall2018.csc207project.UI.LocalScoreBoardActivity" />
+        <activity android:name="fall2018.csc207project.UI.SaveSlot" />
+        <activity android:name="fall2018.csc207project.minesweepergame.MinesweeperSettings" />
+        <activity android:name="fall2018.csc207project.minesweepergame.MinesweeperActivity" />
+        <activity android:name="fall2018.csc207project.sudokugame.SudokuGameActivity" />
+        <activity android:name="fall2018.csc207project.sudokugame.SudokuSettingsActivity" />
+    </application>
+
+</manifest>
