@@ -1,4 +1,4 @@
-# Game Center
+# Game Central
 Modular Game Center App made in Android Studio.
 
 Features:
